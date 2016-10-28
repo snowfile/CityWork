@@ -1,0 +1,21 @@
+//
+//  FoodWorld.pch
+//  FoodWorld
+//
+//  Created by Neuedu on 15/11/30.
+//  Copyright © 2015年 Neuedu. All rights reserved.
+//
+
+#ifndef FoodWorld_pch
+#define FoodWorld_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* FoodWorld_pch */
+
+#define P_Width     self.view.bounds.size.width
+#define P_Height    self.view.bounds.size.height
+#import "AFNetworking.h"
+#import"UIKit+AFNetworking.h"
+#import "AFHTTPRequestOperationManager.h"
